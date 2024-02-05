@@ -92,9 +92,8 @@ function canQueenCaptureKing(/* queen, king */) {
 function isIsoscelesTriangle(a, b, c) {
   if (a === b || b === c || c === a) {
     return true;
-  } else {
-    return false;
   }
+  return false;
 }
 
 /**
@@ -112,7 +111,7 @@ function isIsoscelesTriangle(a, b, c) {
  *  26  => XXVI
  */
 function convertToRomanNumerals(num) {
-
+  return num;
 }
 
 /**
@@ -130,8 +129,8 @@ function convertToRomanNumerals(num) {
  *  '10,5'    => 'one zero point five'
  *  '1950.2'  => 'one nine five zero point two'
  */
-function convertNumberToString( /*numberStr*/ ) {
-
+function convertNumberToString(numberStr) {
+  return numberStr;
 }
 
 /**
